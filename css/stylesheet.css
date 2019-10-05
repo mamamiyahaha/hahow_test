@@ -281,9 +281,9 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	color: #bfdd00;
 	border: 1px solid #f00;
 }
-.icon-fb-s:hover .icon-fb-s-img{
+/* .icon-fb-s:hover .icon-fb-s-img{
 	background: url('../images/icon-fb-s-hover.jpg') no-repeat center center;
-}
+} */
 
 .content {
 	width: 100%;
