@@ -249,18 +249,16 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	width: 90px;
 	position: relative;
 	padding-top: 45px;
+	cursor: pointer;
 }
-.icon-fb-s > a {
+/* .icon-fb-s > a {
 	display: block;
 	color: #999;
 	font-size: 14px;
     line-height: 21px;
 	text-decoration: none;
-}
+} */
 
-.icon-fb-s:hover a{
-	color: #bfdd00;
-}
 .icon-fb-s::after{
 	content: '';
 	display: block;
@@ -277,13 +275,14 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	padding-bottom: 10px;
 	cursor: pointer;
 }
-/* .icon-fb-s-single{
-	position: relative;
-	padding-top: 45px;
+
+
+/* .icon-fb-s:hover span{
+	color: #bfdd00;
 } */
-.icon-fb-s:hover .icon-fb-s-img{
+/* .icon-fb-s:hover .icon-fb-s-img{
 	background: url('../images/icon-fb-s-hover.jpg') no-repeat center center;
-}
+} */
 
 .content {
 	width: 100%;
