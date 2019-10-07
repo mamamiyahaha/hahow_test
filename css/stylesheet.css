@@ -1123,6 +1123,14 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	background: url('../images/work-2-03-hover.jpg') center center no-repeat;
 	transition: .4s;
 }
+.content > .col-works > .col-6 > .col-6-1 > .works-2-04 {
+	background: url('../images/work-2-04.jpg') center center no-repeat;
+	transition: .4s;
+}
+.content > .col-works > .col-6 > .col-6-1:hover .works-2-04{
+	background: url('../images/work-2-04-hover.jpg') center center no-repeat;
+	transition: .4s;
+}
 
 
 .content > .col-works > .col-6 > .col-6-1 > .works-3-01 {
@@ -1183,6 +1191,14 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-5-02 {
 	background: url('../images/work-5-02-hover.jpg') center center no-repeat;
+	transition: all .4s;
+}
+.content > .col-works > .col-6 > .col-6-1 > .works-5-03 {
+	background: url('../images/work-5-03.jpg') center center no-repeat;
+	transition: all .4s;
+}
+.content > .col-works > .col-6 > .col-6-1:hover .works-5-03 {
+	background: url('../images/work-5-03-hover.jpg') center center no-repeat;
 	transition: all .4s;
 }
 /* .content > .col-works > .col-6 > .col-6-1 > .col-6-pic:before {
