@@ -162,7 +162,7 @@ header > .wrap > .nav-wrap > .navigation > a.touch {
 	transition: color 1s;
 }
 
-
+/* 
 @media screen and (min-width: 768px){
 	header > .wrap > .nav-wrap > .navigation > a:hover > span.dot::before,
 	header > .wrap > .nav-wrap > .navigation > a.touch > span.dot::before {
@@ -237,8 +237,8 @@ header > .wrap > .nav-wrap > .navigation > a.touch {
 		  0%{ right: 54.5%; opacity: 0;}
 		100%{ right: 19%; opacity: 1;}
 	} 
-}
-/* 
+} */
+
 header > .wrap > .nav-wrap > .navigation > a:hover > span.dot::before,
 header > .wrap > .nav-wrap > .navigation > a.touch > span.dot::before {
 	content: '';
@@ -311,7 +311,7 @@ header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::after {
 @keyframes dot2-2 {
 	  0%{ right: 54.5%; opacity: 0;}
 	100%{ right: 19%; opacity: 1;}
-} */
+}
 
 header > .wrap .nav-wrap > .navigation > a.icon-fb {
 	background: url('../images/icon-fb.jpg') no-repeat center center;
