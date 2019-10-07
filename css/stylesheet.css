@@ -162,7 +162,7 @@ header > .wrap > .nav-wrap > .navigation > a.touch {
 	transition: color 1s;
 }
 
-/* 
+
 @media screen and (min-width: 768px){
 	header > .wrap > .nav-wrap > .navigation > a:hover > span.dot::before,
 	header > .wrap > .nav-wrap > .navigation > a.touch > span.dot::before {
@@ -177,6 +177,7 @@ header > .wrap > .nav-wrap > .navigation > a.touch {
 		top: 47px;
 		left: 15px;
 		animation: dot1-1 .5s forwards;
+		-moz-animation: dot1-1 .5s forwards;
 		opacity: 0;
 	}
 	@keyframes dot1-1 {
@@ -195,6 +196,7 @@ header > .wrap > .nav-wrap > .navigation > a.touch {
 		top: 47px;
 		left: 15px;
 		animation: dot1-2 .5s forwards;
+		-moz-animation: dot1-2 .5s forwards;
 		opacity: 0;
 	}
 	@keyframes dot1-2 {
@@ -214,6 +216,7 @@ header > .wrap > .nav-wrap > .navigation > a.touch {
 		right: calc( 15px + 2.7% );
 		opacity: 1;
 		animation: dot2-1 .5s .5s alternate 2 backwards ;
+		-moz-animation: dot2-1 .5s .5s alternate 2 backwards ;
 	}
 	@keyframes dot2-1 {
 		  0%{ right: calc( 15px + 2.7% ); opacity: 0;}
@@ -232,13 +235,14 @@ header > .wrap > .nav-wrap > .navigation > a.touch {
 		right: 54.5%;
 		opacity: 1;
 		animation: dot2-2 .5s .5s alternate 2 backwards ;
+		-moz-animation: dot2-2 .5s .5s alternate 2 backwards ;
 	}
 	@keyframes dot2-2 {
 		  0%{ right: 54.5%; opacity: 0;}
 		100%{ right: 19%; opacity: 1;}
 	} 
-} */
-
+}
+/* 
 header > .wrap > .nav-wrap > .navigation > a:hover > span.dot::before,
 header > .wrap > .nav-wrap > .navigation > a.touch > span.dot::before {
 	content: '';
@@ -311,7 +315,7 @@ header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::after {
 @keyframes dot2-2 {
 	  0%{ right: 54.5%; opacity: 0;}
 	100%{ right: 19%; opacity: 1;}
-}
+} */
 
 header > .wrap .nav-wrap > .navigation > a.icon-fb {
 	background: url('../images/icon-fb.jpg') no-repeat center center;
