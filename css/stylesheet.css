@@ -250,6 +250,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	position: relative;
 	padding-top: 45px;
 	cursor: pointer;
+	color: #000;
 }
 /* .icon-fb-s > a {
 	display: block;
