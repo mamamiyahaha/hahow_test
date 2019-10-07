@@ -3,12 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>BORNA DESOGN 伯納廣告設計工作室</title>    
+	<meta property="og:title" content="伯納設計|一之軒 品牌形象DM設計">
+	<meta property="og:description" content="人生的幾件重要的時刻，從出生、每年生日到結婚，都有一之軒陪伴在您左右...">
+	<meta property="og:url" content="https://mamamiyahaha.github.io/hahow_test/works-1-04.html"> 
+	<meta property="og:image" content="https://mamamiyahaha.github.io/hahow_test/images/work-1-04-fb.jpg" width="800">
+	<title>BORNA DESIGN 伯納廣告設計工作室</title>     
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/stylesheet.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
-</script>
-<script type="text/javascript" src="js/anchor.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/anchor.js"></script>
 </head>
 <body>
 	<div id="up"></div>
@@ -75,12 +79,15 @@
 								幸福時刻，我們都在，是一之軒一直以來使命，色彩以泛紫色為主，金色點綴，給人一種平價的高級享受，正是一之軒想給消費者的品牌感受。<br><br>
 							</p>
 							<span>_型錄, DM, 印刷設計</span>
-							<div class="icon-fb-s">
-								<a href="javascript:;" target="_blank">
-									SHARE ON
-								</a>
-								<div class="icon-fb-s-img" onclick="location.href='works-2-02.html';"></div>
+							<div id="FB" class="icon-fb-s" onclick="location.href='javascript:;">	<span>SHARE ON </span>
+								<div class="icon-fb-s-img"></div>
 							</div>
+
+						    <script>
+						        $("#FB").on("click",function(){
+						            window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)),"_blank","toolbar=yes,location=yes,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=no,copyhistory=yes,width=600,height=400" )
+						        })
+						    </script>
 						</div>
 						<div class="col-works-2col-right">
 							<img src="images/work-1-04-1.jpg">
