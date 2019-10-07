@@ -1089,14 +1089,16 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	background: url('../images/work-1-02-hover.jpg') center center no-repeat;
 	transition: all .4s;
 }
-.content > .col-works > .col-6 > .col-6-1 > .works-5-01 {
-	background: url('../images/work-5-01.jpg') center center no-repeat;
+.content > .col-works > .col-6 > .col-6-1 > .works-1-03 {
+	background: url('../images/work-1-03.jpg') center center no-repeat;
 	transition: all .4s;
 }
-.content > .col-works > .col-6 > .col-6-1:hover .works-5-01{
-	background: url('../images/work-5-01-hover.jpg') center center no-repeat;
+.content > .col-works > .col-6 > .col-6-1:hover .works-1-03{
+	background: url('../images/work-1-03-hover.jpg') center center no-repeat;
 	transition: all .4s;
 }
+
+
 .content > .col-works > .col-6 > .col-6-1 > .works-2-01 {
 	background: url('../images/work-2-01.jpg') center center no-repeat;
 	transition: .4s;
@@ -1121,14 +1123,8 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	background: url('../images/work-2-03-hover.jpg') center center no-repeat;
 	transition: .4s;
 }
-.content > .col-works > .col-6 > .col-6-1 > .works-5-02 {
-	background: url('../images/work-5-02.jpg') center center no-repeat;
-	transition: all .4s;
-}
-.content > .col-works > .col-6 > .col-6-1:hover .works-5-02 {
-	background: url('../images/work-5-02-hover.jpg') center center no-repeat;
-	transition: all .4s;
-}
+
+
 .content > .col-works > .col-6 > .col-6-1 > .works-3-01 {
 	background: url('../images/work-3-01.jpg') center center no-repeat;
 	transition: all .4s;
@@ -1151,6 +1147,32 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-3-03{
 	background: url('../images/work-3-03-hover.jpg') center center no-repeat;
+	transition: all .4s;
+}
+.content > .col-works > .col-6 > .col-6-1 > .works-3-04 {
+	background: url('../images/work-3-04.jpg') center center no-repeat;
+	transition: all .4s;
+}
+.content > .col-works > .col-6 > .col-6-1:hover .works-3-04{
+	background: url('../images/work-3-04-hover.jpg') center center no-repeat;
+	transition: all .4s;
+}
+
+
+.content > .col-works > .col-6 > .col-6-1 > .works-5-01 {
+	background: url('../images/work-5-01.jpg') center center no-repeat;
+	transition: all .4s;
+}
+.content > .col-works > .col-6 > .col-6-1:hover .works-5-01{
+	background: url('../images/work-5-01-hover.jpg') center center no-repeat;
+	transition: all .4s;
+}
+.content > .col-works > .col-6 > .col-6-1 > .works-5-02 {
+	background: url('../images/work-5-02.jpg') center center no-repeat;
+	transition: all .4s;
+}
+.content > .col-works > .col-6 > .col-6-1:hover .works-5-02 {
+	background: url('../images/work-5-02-hover.jpg') center center no-repeat;
 	transition: all .4s;
 }
 /* .content > .col-works > .col-6 > .col-6-1 > .col-6-pic:before {
