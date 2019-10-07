@@ -1159,6 +1159,16 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 }
 
 
+.content > .col-works > .col-6 > .col-6-1 > .works-4-01 {
+	background: url('../images/work-4-01.jpg') center center no-repeat;
+	transition: all .4s;
+}
+.content > .col-works > .col-6 > .col-6-1:hover .works-4-01{
+	background: url('../images/work-4-01-hover.jpg') center center no-repeat;
+	transition: all .4s;
+}
+
+
 .content > .col-works > .col-6 > .col-6-1 > .works-5-01 {
 	background: url('../images/work-5-01.jpg') center center no-repeat;
 	transition: all .4s;
