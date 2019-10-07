@@ -161,84 +161,6 @@ header > .wrap > .nav-wrap > .navigation > a.touch {
 	color: #000;
 	transition: color 1s;
 }
-
-
-@media screen and (min-width: 768px){
-	header > .wrap > .nav-wrap > .navigation > a:hover > span.dot::before,
-	header > .wrap > .nav-wrap > .navigation > a.touch > span.dot::before {
-		content: '';
-		display: inline-block;
-		clear: both;
-		width: calc( 100% - 30px );
-		height: 6px;
-		background-color: #bfdd00;
-		border-radius: 100px;
-		position: absolute;
-		top: 47px;
-		left: 15px;
-		animation: dot1-1 .5s forwards;
-		opacity: 0;
-	}
-	@keyframes dot1-1 {
-		  0%{ width: 0px;   opacity: 0;}
-		100%{ width: calc( 100% - 30px );  opacity: 1;}
-	}
-	header > .wrap .nav-wrap > .navigation > a:hover > span.dot::after {
-		content: '';
-		display: inline-block;
-		clear: both;
-		width: 6px;
-		height: 6px;
-		background-color: #6da41d;
-		border-radius: 100px;
-		position: absolute;
-		top: 47px;
-		left: 15px;
-		animation: dot1-2 .5s forwards;
-		opacity: 0;
-	}
-	@keyframes dot1-2 {
-		  0%{ opacity: 0;}
-		100%{ opacity: 1;}
-	}
-	header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::before {
-		content: '';
-		display: inline-block;
-		clear: both;
-		width: 6px;
-		height: 6px;
-		background-color: #90be24;
-		border-radius: 100px;
-		position: absolute;
-		top: 47px;
-		right: calc( 15px + 2.7% );
-		opacity: 1;
-		animation: dot2-1 .5s .5s alternate 2 backwards ;
-	}
-	@keyframes dot2-1 {
-		  0%{ right: calc( 15px + 2.7% ); opacity: 0;}
-		100%{ right: 48.1%; opacity: 1;}
-	}
-	header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::after {
-		content: '';
-		display: inline-block;
-		clear: both;
-		width: 6px;
-		height: 6px;
-		background-color: #e7f29d;
-		border-radius: 100px;
-		position: absolute;
-		top: 47px;
-		right: 54.5%;
-		opacity: 1;
-		animation: dot2-2 .5s .5s alternate 2 backwards ;
-	}
-	@keyframes dot2-2 {
-		  0%{ right: 54.5%; opacity: 0;}
-		100%{ right: 19%; opacity: 1;}
-	} 
-}
-/* 
 header > .wrap > .nav-wrap > .navigation > a:hover > span.dot::before,
 header > .wrap > .nav-wrap > .navigation > a.touch > span.dot::before {
 	content: '';
@@ -251,13 +173,22 @@ header > .wrap > .nav-wrap > .navigation > a.touch > span.dot::before {
 	position: absolute;
 	top: 47px;
 	left: 15px;
-	animation: dot1-1 .5s forwards;
-	opacity: 0;
 }
-@keyframes dot1-1 {
-	  0%{ width: 0px;   opacity: 0;}
-	100%{ width: calc( 100% - 30px );  opacity: 1;}
+
+
+
+@media screen and (min-width: 768px) {
+	header > .wrap > .nav-wrap > .navigation > a:hover > span.dot::before,
+	header > .wrap > .nav-wrap > .navigation > a.touch > span.dot::before {
+		animation: dot1-1 .5s forwards;
+		opacity: 0;
+	}
+	@keyframes dot1-1 {
+		  0%{ width: 0px;   opacity: 0;}
+		100%{ width: calc( 100% - 30px );  opacity: 1;}
+	}
 }
+
 header > .wrap .nav-wrap > .navigation > a:hover > span.dot::after {
 	content: '';
 	display: inline-block;
@@ -269,13 +200,20 @@ header > .wrap .nav-wrap > .navigation > a:hover > span.dot::after {
 	position: absolute;
 	top: 47px;
 	left: 15px;
-	animation: dot1-2 .5s forwards;
-	opacity: 0;
 }
-@keyframes dot1-2 {
-	  0%{ opacity: 0;}
-	100%{ opacity: 1;}
+
+
+@media screen and (min-width: 768px) {
+	header > .wrap .nav-wrap > .navigation > a:hover > span.dot::after {
+		animation: dot1-2 .5s forwards;
+		opacity: 0;
+	}
+	@keyframes dot1-2 {
+		  0%{ opacity: 0;}
+		100%{ opacity: 1;}
+	}
 }
+
 header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::before {
 	content: '';
 	display: inline-block;
@@ -287,12 +225,17 @@ header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::before {
 	position: absolute;
 	top: 47px;
 	right: calc( 15px + 2.7% );
-	opacity: 1;
-	animation: dot2-1 .5s .5s alternate 2 backwards ;
 }
-@keyframes dot2-1 {
-	  0%{ right: calc( 15px + 2.7% ); opacity: 0;}
-	100%{ right: 48.1%; opacity: 1;}
+
+@media screen and (min-width: 768px) {
+	header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::before {
+		opacity: 1;
+		animation: dot2-1 .5s .5s alternate 2 backwards ;
+	}
+	@keyframes dot2-1 {
+		  0%{ right: calc( 15px + 2.7% ); opacity: 0;}
+		100%{ right: 48.1%; opacity: 1;}
+	}
 }
 header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::after {
 	content: '';
@@ -305,14 +248,18 @@ header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::after {
 	position: absolute;
 	top: 47px;
 	right: 54.5%;
-	opacity: 1;
-	animation: dot2-2 .5s .5s alternate 2 backwards ;
 }
-@keyframes dot2-2 {
-	  0%{ right: 54.5%; opacity: 0;}
-	100%{ right: 19%; opacity: 1;}
-} */
 
+@media screen and (min-width: 768px) {
+	header > .wrap .nav-wrap > .navigation > a:hover > span.dot2::after {
+		opacity: 1;
+		animation: dot2-2 .5s .5s alternate 2 backwards ;
+	}
+	@keyframes dot2-2 {
+		  0%{ right: 54.5%; opacity: 0;}
+		100%{ right: 19%; opacity: 1;}
+	}
+}
 header > .wrap .nav-wrap > .navigation > a.icon-fb {
 	background: url('../images/icon-fb.jpg') no-repeat center center;
 	width: 12px;
@@ -697,7 +644,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 
 .content > .article-main {
 	position: relative;
-	height: 600px;
+	height: 550px;
 	width: 100%;
 	overflow: hidden;
 	background-color: #000;
