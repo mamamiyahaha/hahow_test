@@ -1083,19 +1083,19 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-1-02 {
 	background: url('../images/work-1-02.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-1-02{
 	background: url('../images/work-1-02-hover.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-5-01 {
 	background: url('../images/work-5-01.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-5-01{
 	background: url('../images/work-5-01-hover.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-2-01 {
 	background: url('../images/work-2-01.jpg') center center no-repeat;
@@ -1121,37 +1121,37 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	background: url('../images/work-2-03-hover.jpg') center center no-repeat;
 	transition: .4s;
 }
-.content > .col-works > .col-6 > .col-6-1 > .works-1-04 {
-	background: url('../images/work-1-04.jpg') center center no-repeat;
-	transition: all .94s;
+.content > .col-works > .col-6 > .col-6-1 > .works-5-02 {
+	background: url('../images/work-5-02.jpg') center center no-repeat;
+	transition: all .4s;
 }
-.content > .col-works > .col-6 > .col-6-1:hover .works-1-04{
-	background: url('../images/work-1-04-hover.jpg') center center no-repeat;
-	transition: all .94s;
+.content > .col-works > .col-6 > .col-6-1:hover .works-5-02 {
+	background: url('../images/work-5-02-hover.jpg') center center no-repeat;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-1-05 {
 	background: url('../images/work-1-05.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-1-05{
 	background: url('../images/work-1-05-hover.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-1-06 {
 	background: url('../images/work-1-06.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-1-06{
 	background: url('../images/work-1-06-hover.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-1-07 {
 	background: url('../images/work-1-07.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-1-07{
 	background: url('../images/work-1-07-hover.jpg') center center no-repeat;
-	transition: all .94s;
+	transition: all .4s;
 }
 /* .content > .col-works > .col-6 > .col-6-1 > .col-6-pic:before {
 	content: '';
