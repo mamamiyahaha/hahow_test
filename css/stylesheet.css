@@ -251,19 +251,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	padding-top: 45px;
 	cursor: pointer;
 }
-/* .icon-fb-s > a {
-	display: block;
-	color: #999;
-	font-size: 14px;
-    line-height: 21px;
-	text-decoration: none;
-} */
 
-.icon-fb-s::after{
-	content: '';
-	display: block;
-	clear: both;
-}
 
 .icon-fb-s span{
 	color: #999;
