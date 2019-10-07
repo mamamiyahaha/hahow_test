@@ -3,11 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="伯納設計|一之軒 彌月禮盒視覺設計">
+	<meta property="og:description" content="彌月，是生命的起點，好奇與探索未知是寶寶的第一堂課，設計以各種不同的兒童玩具與用品圖標，圍繞在一之軒的周圍，意味著一之軒以幸福為主軸，陪伴孩子以好奇心，探索未知...">
+	<meta property="og:url" content="https://mamamiyahaha.github.io/hahow_test/works-1-02.html"> 
+	<meta property="og:image" content="https://mamamiyahaha.github.io/hahow_test/images/work-1-02-fb.jpg" width="800">
 	<title>BORNA DESOGN 伯納廣告設計工作室</title>    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/stylesheet.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
-</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
 <script type="text/javascript" src="js/anchor.js"></script>
 </head>
 <body>
@@ -76,12 +80,15 @@
 								同時，粉色給人具親和力的感受，故整體色調以粉藍粉紅為主色，圖標則以飽合的顏色搭配，除了具有明視度外，也有積極向前的特性，意味著「好奇與探索」的概念。<br><br>
 							</p>
 							<span>_包裝設計, 印刷設計, 手冊型錄</span>
-							<div class="icon-fb-s">
-								<a href="javascript:;" target="_blank">
-									SHARE ON
-								</a>
-								<div class="icon-fb-s-img" onclick="location.href='works-2-02.html';"></div>
+							<div id="FB" class="icon-fb-s" onclick="location.href='javascript:;">	<span>SHARE ON </span>
+								<div class="icon-fb-s-img"></div>
 							</div>
+
+						    <script>
+						        $("#FB").on("click",function(){
+						            window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)),"_blank","toolbar=yes,location=yes,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=no,copyhistory=yes,width=600,height=400" )
+						        })
+						    </script>
 						</div>
 						<div class="col-works-2col-right">
 							<img src="images/work-1-03-1.jpg">
