@@ -1143,16 +1143,18 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	flex-wrap: wrap;
 }
 .content > .col-works > .col-6 > .col-6-1 {
-	width: calc( (100% / 1 ) - 1% );
+	width: calc( (100% / 1 ) - 10% );
 	padding-top: 34px;
-	padding-left: 0.5%;
-	padding-right: 0.5%;
+	padding-left: 5%;
+	padding-right: 5%;
 	cursor: pointer;
 }
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 768px) {
 	.content > .col-works > .col-6 > .col-6-1 {
 		width: calc( (100% / 3 ) - 1% );
+		padding-left: 0.5%;
+		padding-right: 0.5%;
 	}
 }
 
