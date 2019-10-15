@@ -701,7 +701,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 
 .content > .article-main {
 	position: relative;
-	height: 600px;
+	height: 250px;
 	width: 100%;
 	overflow: hidden;
 	background-color: #000;
@@ -710,7 +710,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 
 @media screen and  (min-width: 992px) {
 	.content > .article-main {
-		height: 600px;
+		height: 330px;
 	}
 }
 
@@ -736,8 +736,9 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	left: 0;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, .7);
-	padding: 24px 30px;
+	padding: 15px 30px;
 	color: #fff;
+	width: calc( 100% - 60px);
 }
 .content > .col > .article-main-catch > h3 {
 	font-size: 19px;
@@ -753,6 +754,14 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	line-height: 25px;
 	padding-top: 10px;
 }
+
+
+
+
+
+
+
+
 .content > .article-col2 {
 	display: flex;
 	justify-content: center;
@@ -760,11 +769,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	padding: 47.5px 0px;
 }
 
-@media screen and (min-width: 1024px) {
-	.content > .article-col2 {
-		
-	}
-}
+
 @media screen and (min-width: 1650px) {
 	.content > .article-col2 {
 		justify-content: space-between;
@@ -859,7 +864,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	padding-top: 5px;
 }
 .content > .article-col2 > .article-col2-2 > .article-col2-2-right > p{
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 23px;
 	padding-right: 20px;
 	padding-top: 13px;
@@ -1134,22 +1139,48 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 }
 .content > .col-works > .col-6 {
 	display: flex;
-	justify-content: center;
+	justify-content: start;
 	flex-wrap: wrap;
-
 }
 .content > .col-works > .col-6 > .col-6-1 {
-	width: 250px;
+	width: calc( (100% / 2 ) - 1% );
 	padding-top: 34px;
 	padding-left: 0.5%;
 	padding-right: 0.5%;
 	cursor: pointer;
 }
+
+@media screen and (min-width: 787px) {
+	.content > .col-works > .col-6 > .col-6-1 {
+		width: calc( (100% / 3 ) - 1% );
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.content > .col-works > .col-6 > .col-6-1 {
+		width: calc( (100% / 4 ) - 1% );
+	}
+}
+@media screen and (min-width: 1366px) {
+	.content > .col-works > .col-6 > .col-6-1 {
+		width: calc( (100% / 5 ) - 1% );
+	}
+}
+@media screen and (min-width: 1600px) {
+	.content > .col-works > .col-6 > .col-6-1 {
+		width: calc( (100% / 6 ) - 1% );
+	}
+}
+@media screen and (min-width: 1920px) {
+	.content > .col-works > .col-6 > .col-6-1 {
+		width: calc( (100% / 7 ) - 1% );
+	}
+}
 .content > .col-works > .col-6 > .col-6-1:last-child {
 	padding-bottom: 85px;
 }
 .content > .col-works > .col-6 > .col-6-1 > .col-6-pic {
-	width: 250px;
+	width: 100%;
 	height: 250px;
 	position: relative;
 
@@ -1157,130 +1188,181 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 .content > .col-works > .col-6 > .col-6-1 > .works-1-01 {
 	background: url('../images/work-1-01.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-1-01{
 	background: url('../images/work-1-01-hover.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-1-02 {
 	background: url('../images/work-1-02.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-1-02{
 	background: url('../images/work-1-02-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-1-03 {
 	background: url('../images/work-1-03.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-1-03{
 	background: url('../images/work-1-03-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 
 
 .content > .col-works > .col-6 > .col-6-1 > .works-2-01 {
 	background: url('../images/work-2-01.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-2-01{
 	background: url('../images/work-2-01-hover.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-2-02 {
 	background: url('../images/work-2-02.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-2-02{
 	background: url('../images/work-2-02-hover.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-2-03 {
 	background: url('../images/work-2-03.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-2-03{
 	background: url('../images/work-2-03-hover.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-2-04 {
 	background: url('../images/work-2-04.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-2-04{
 	background: url('../images/work-2-04-hover.jpg') center center no-repeat;
 	transition: .4s;
+	background-size: cover;
+}
+.content > .col-works > .col-6 > .col-6-1 > .works-2-05 {
+	background: url('../images/work-2-05.jpg') center center no-repeat;
+	transition: .4s;
+	background-size: cover;
+}
+.content > .col-works > .col-6 > .col-6-1:hover .works-2-05{
+	background: url('../images/work-2-05-hover.jpg') center center no-repeat;
+	transition: .4s;
+	background-size: cover;
+}
+
+.content > .col-works > .col-6 > .col-6-1 > .works-2-06 {
+	background: url('../images/work-2-06.jpg') center center no-repeat;
+	transition: .4s;
+	background-size: cover;
+}
+.content > .col-works > .col-6 > .col-6-1:hover .works-2-06{
+	background: url('../images/work-2-06-hover.jpg') center center no-repeat;
+	transition: .4s;
+	background-size: cover;
 }
 
 
 .content > .col-works > .col-6 > .col-6-1 > .works-3-01 {
 	background: url('../images/work-3-01.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-3-01{
 	background: url('../images/work-3-01-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-3-02 {
 	background: url('../images/work-3-02.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-3-02{
 	background: url('../images/work-3-02-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-3-03 {
 	background: url('../images/work-3-03.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-3-03{
 	background: url('../images/work-3-03-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-3-04 {
 	background: url('../images/work-3-04.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-3-04{
 	background: url('../images/work-3-04-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 
 
 .content > .col-works > .col-6 > .col-6-1 > .works-4-01 {
 	background: url('../images/work-4-01.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-4-01{
 	background: url('../images/work-4-01-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 
 
 .content > .col-works > .col-6 > .col-6-1 > .works-5-01 {
 	background: url('../images/work-5-01.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-5-01{
 	background: url('../images/work-5-01-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-5-02 {
 	background: url('../images/work-5-02.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-5-02 {
 	background: url('../images/work-5-02-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1 > .works-5-03 {
 	background: url('../images/work-5-03.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 .content > .col-works > .col-6 > .col-6-1:hover .works-5-03 {
 	background: url('../images/work-5-03-hover.jpg') center center no-repeat;
 	transition: all .4s;
+	background-size: cover;
 }
 /* .content > .col-works > .col-6 > .col-6-1 > .col-6-pic:before {
 	content: '';
@@ -1298,6 +1380,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	background: rgba(0, 0, 0, .7);
 }
  */
+
 .content > .col-works > .col-6 > .col-6-1 > .col-6-title > a > h3{
 	font-size: 14px;
 	line-height: 21px;
