@@ -1281,6 +1281,16 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	transition: all .4s;
 	background-size: cover;
 }
+.content > .col-works > .col-6 > .col-6-1 > .works-5-04 {
+	background: url('../images/work-5-04.jpg') center center no-repeat;
+	transition: all .4s;
+	background-size: cover;
+}
+.content > .col-works > .col-6 > .col-6-1:hover .works-5-04 {
+	background: url('../images/work-5-04-hover.jpg') center center no-repeat;
+	transition: all .4s;
+	background-size: cover;
+}
 /* .content > .col-works > .col-6 > .col-6-1 > .col-6-pic:before {
 	content: '';
 	display: block;
