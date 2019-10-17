@@ -1048,6 +1048,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	width: 100%;
 }
 .content > .col-works > .col-6 {
+	width: 100%;
 	display: flex;
 	justify-content: start;
 	flex-wrap: wrap;
@@ -1079,15 +1080,19 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 	}
 }
 @media screen and (min-width: 1600px) {
+	.content > .col-works > .col-6 {
+		width: 1650px;
+		margin: 0 auto;
+	}
 	.content > .col-works > .col-6 > .col-6-1 {
 		width: calc( (100% / 6 ) - 1% );
 	}
 }
-@media screen and (min-width: 1920px) {
+/* @media screen and (min-width: 1920px) {
 	.content > .col-works > .col-6 > .col-6-1 {
 		width: calc( (100% / 7 ) - 1% );
 	}
-}
+} */
 .content > .col-works > .col-6 > .col-6-1:last-child {
 	padding-bottom: 85px;
 }
