@@ -1055,7 +1055,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 }
 .content > .col-works > .col-6 > .col-6-1 {
 	width: calc( (100% / 1 ) - 10% );
-	padding-top: 34px;
+	padding-bottom: 34px;
 	padding-left: 5%;
 	padding-right: 5%;
 	cursor: pointer;
