@@ -692,11 +692,11 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 }
 
 
-@media screen and (min-width: 1650px) {
-	.content > .article-col2 {
-		justify-content: space-between;
-	}
+
+.content > .article-col2 {
+	justify-content: space-between;
 }
+
 .content > .article-col2 > .article-col2-2 {
 	display: flex;
 	justify-content: center;
