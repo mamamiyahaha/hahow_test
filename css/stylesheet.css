@@ -804,7 +804,7 @@ header > .wrap .nav-wrap > .navigation > a.icon-fb:hover {
 		width: 90%;
 	}
 }
-@media screen and (min-width: 1650px) {
+@media screen and (min-width: 1200px) {
 	.content > .col {
 		width: 1000px;
 	}
